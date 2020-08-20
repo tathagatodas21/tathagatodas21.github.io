@@ -9,11 +9,40 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
+
+#myVideo {
+  object-fit: cover;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+/* for guitar tatha introduction heading */
+.contenthead {
+  position: absolute;
+  top: 0%;
+  background: rgba(0, 0, 0, 0.158);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 2%;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  background: rgba(0, 0, 0, 0.349);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* navbar color*/
 .container-fluid{
-  background-color: rgba(90, 55, 110, 0.74)
+  background-color: rgba(41, 235, 73, 0.603)
 }
 
 
@@ -28,11 +57,6 @@ h1{
   text-align: center;
 }
 
-h2{
-  text-align: center;
-}
-
-
 p{
  
   padding-left: 0.8em;
@@ -42,66 +66,21 @@ body{
   background-color: rgb(177, 171, 171);
 }
 
-/*
-body {
- background-color: rgba(rgb(255, 255, 255), rgb(250, 250, 250), rgb(255, 255, 255), 0.6);
-  background-size: cover;
-  font-family: 'Roboto', serif;
-  font-size: 25px;
-}
-/*
-.logo {
-  text-indent: -99999999px;
-  background: url(images/guitartatha_logo.png);
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(66, 60, 60);
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-/*li a:hover {
-  background-color: #111;
-}
-
-p {
-  padding: 10px;
-}
-.head1 {
-  font-family: DoHyeon-Regular;
-  background: rgba(145, 136, 113, 0.3);
-  text-align: center;
- 
-  text-decoration: none;
-} */
 
 .authortatha {
   image-resolution: 100dpi;
-  background-color: rgb(172, 169, 171);
+  background-color: rgba(253, 253, 252, 0.514);
   margin: 1000px;
   font-size: smaller;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
   max-width: 350px;
 
   margin: auto;
   text-align: center;
 }
+
+
 
 .tathagtr {
   border-radius: 50%;
@@ -109,7 +88,26 @@ p {
 
 .abouthead {
  text-align: center;
+ position: relative;
+  top: 50;
+  color: #a540e9dc;
+  width: 100%;
+  padding: 5px;
+  margin: 0cm;
 }
 
 
+.aboutauthorblock{
+  color: rgba(2, 2, 2, 0.911);
+  font-weight: bold;
+}
 
+
+.aboutcontent {
+  position: fixed;
+  bottom: 10;
+  background: rgba(54, 54, 54, 0);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}

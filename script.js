@@ -1,12 +1,12 @@
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
   } else {
-    navbar.classList.remove("sticky");
+    video.pause();
+    btn.innerHTML = "Play";
   }
 }
