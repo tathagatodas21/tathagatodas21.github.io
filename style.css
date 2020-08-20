@@ -12,12 +12,35 @@
 }
 
 
+.container-fluid{
+  background-color: rgba(90, 55, 110, 0.74)
+}
 
 
 
+.GTlogo{
+height: 190%;
+border-radius: 50%;
+max-width:100%; 
+margin-top: -7px;
+}
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
 
 
+p{
+ 
+  padding-left: 0.8em;
+}
 
+body{
+  background-color: rgb(177, 171, 171);
+}
 
 /*
 body {
